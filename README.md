@@ -1,6 +1,30 @@
-# NLP Project 2024
+# Recipe Recommender System - NLP Project 18 (2024)
 
-### DEADLINES:
+Project by Matt Stirling & Pau Roca
 
-* Seminar: 31th October 2024 (thur) & 5th November 2024 (tue), between 8.00 and 22.00
-* Final: 9th November 2024 (sat), 23.00
+
+## Notebooks
+
+* **matti_notebook.ipynb**
+    * (Tasks 1-2) Exploration and User Profiles
+    * (Tasks 5-7) Similarity calculations \
+    FILES CREATED:
+    * **User_Data.csv**
+    * **Recipe_Reviews.csv**
+* **pau_notebook.ipynb**
+    * (Tasks 3-4) Sentiment analysis
+    * (Tasks 8-9) Clustering
+* **recommender_content.ipynb** 
+    * (Tasks 10-11) Recommender system \
+    FILES CREATED:
+    * **User_Data_Train.csv**
+    * **User_Data_Test.csv**
+
+
+## How to run
+
+* Install python dependencies in requirements.txt
+* Visit https://www.kaggle.com/code/ngohoantamhuy/food-recommendation-systems and download the files: 
+    * **RAW_interactions.csv**
+    * **RAW_recipes.csv**
+* Place the files in a folder called 'dataset' (not tracked by git)
