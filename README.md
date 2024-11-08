@@ -14,8 +14,8 @@ Project by Matt Stirling & Pau Roca
 * **pau_notebook.ipynb**
     * (Tasks 3-4) Sentiment analysis
     * (Tasks 8-9) Clustering
-* **recommender_content.ipynb** 
-    * (Tasks 10-11) Recommender system \
+* **recommender_contentBased.ipynb** 
+    * (Task 10) Recommender system \
     FILES CREATED:
     * **User_Data_Train.csv**
     * **User_Data_Test.csv**
