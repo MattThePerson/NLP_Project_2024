@@ -28,3 +28,23 @@ Project by Matt Stirling & Pau Roca
     * **RAW_interactions.csv**
     * **RAW_recipes.csv**
 * Place the files in a folder called 'dataset' (not tracked by git)
+
+
+## Description of Recommender Systems
+
+
+1. TF-IDF (content-based)
+    - **(item profiles)** Generate item profiles from combined TF-IDF matrix
+    - **(user profiles)** Generate user profiles by getting mean of weighted recipe embeddings
+    - **(user-item SIM)** Cosine sim between user and recipe embeddings to find n recommended items
+
+
+2. Collaborative filtering
+    - **(user profiles)** Use user-item rating matrix as feature space
+    - **(user-user SIM)** Find users with similar rating profiles (CC) and recommend n recipes sorted by *(user_rating x similarity)* and not rated by user
+
+
+3. DistilBERT (content-based)
+    - **(item profiles)** Get recipe embeddings using DistilBERT model
+    - **(user profiles)** Get user embeddings by getting mean of weighted recipe embeddings for rated recipes
+    - **(user-item SIM)** Cosine sim between user and recipe embeddings to find n recommended items
