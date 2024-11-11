@@ -1,6 +1,7 @@
-# Recipe Recommender System - NLP Project 18 (2024)
+# NLP Project 18 - Recipe Recommender System (2024)
 
-Project by Matt Stirling & Pau Roca
+Natural Language Processing class of 2024 (University of Oulu)\
+Project by Matt Stirling & Pau Roca.
 
 
 ## Notebooks
@@ -14,20 +15,34 @@ Project by Matt Stirling & Pau Roca
 * **pau_notebook.ipynb**
     * (Tasks 3-4) Sentiment analysis
     * (Tasks 8-9) Clustering
+    * DistilBERT testing
 * **recommender_contentBased.ipynb** 
     * (Task 10) Recommender system \
     FILES CREATED:
     * **User_Data_Train.csv**
     * **User_Data_Test.csv**
+    * **recommendations**
+* **recommender_collaborativeFiltering.ipynb**
+    * (Task 11) Collaborative filtering \
+    FILES CREATED:
+    * **recommendations**
+* **recommender_DistilBERT.ipynb**
+    * (Task 14) DistilBERT embeddings using recommender \
+    FILES CREATED:
+    * **recommendations**
+* **recommender_evaluations.ipynb**
+    * (Tasks 10, 11 & 14) Evaluations of the different models
 
 
 ## How to run
 
 * Install python dependencies in requirements.txt
+* Have means to run Jupyter Notebooks
 * Visit https://www.kaggle.com/code/ngohoantamhuy/food-recommendation-systems and download the files: 
     * **RAW_interactions.csv**
     * **RAW_recipes.csv**
 * Place the files in a folder called 'dataset' (not tracked by git)
+* Run **matti_notebook.ipynb** first to generate necessary data
 
 
 ## Description of Recommender Systems
